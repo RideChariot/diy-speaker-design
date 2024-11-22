@@ -35,6 +35,26 @@
 				(justify left top)
 			)
 		)
+		(pin "UART_TX" input
+			(at 31.75 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7978fbba-699e-47db-b748-3a448caf883f")
+		)
+		(pin "UART_RX" input
+			(at 31.75 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dde8bcff-37fc-47fd-af09-630cf809470d")
+		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8"
