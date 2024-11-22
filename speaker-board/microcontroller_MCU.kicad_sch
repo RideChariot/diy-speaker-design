@@ -5005,6 +5005,30 @@
 		)
 		(uuid "7fd61401-8ee7-485c-9cae-829f9f80ea51")
 	)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 123.19 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1e93ed4-aad5-45a9-a96d-a3a289854082")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 129.54 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffc8c474-72bd-4a79-b782-898c0d8bbe38")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 212.09 26.67 0)

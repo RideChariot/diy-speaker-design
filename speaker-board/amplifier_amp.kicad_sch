@@ -408,166 +408,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1706,16 +1546,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 95.25) (xy 59.69 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba1dd0b0-27b7-4476-80c8-ae43ede17b76")
-	)
-	(wire
-		(pts
 			(xy 110.49 95.25) (xy 110.49 99.06)
 		)
 		(stroke
@@ -1723,16 +1553,6 @@
 			(type default)
 		)
 		(uuid "c41c7ada-8bf9-4080-b5b2-bb1ef7aa95cb")
-	)
-	(wire
-		(pts
-			(xy 59.69 95.25) (xy 59.69 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4357425-582d-4588-aad5-1d27f4c92eba")
 	)
 	(wire
 		(pts
@@ -1824,6 +1644,18 @@
 		)
 		(uuid "ffea9156-4fef-41a6-bb04-30f0cf76783e")
 	)
+	(hierarchical_label "Amp_V_PLUS"
+		(shape input)
+		(at 57.15 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a56ad60-a735-4e59-a02b-17a4198798ef")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 256.54 88.9 180)
@@ -1880,7 +1712,7 @@
 			(uuid "cc3ebbb1-60f1-4f1e-bc18-aa0b5fbb8d70")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "J4")
 					(unit 1)
@@ -1950,7 +1782,7 @@
 			(uuid "0466a360-0e71-4a2d-84c3-e9449b98a6d5")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "C7")
 					(unit 1)
@@ -2016,7 +1848,7 @@
 			(uuid "75526fab-8a95-4ac2-82c1-7da8b75a4306")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "J5")
 					(unit 1)
@@ -2082,7 +1914,7 @@
 			(uuid "edc15e5d-cf34-4851-9f5d-0a3a735a62a0")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR019")
 					(unit 1)
@@ -2152,77 +1984,9 @@
 			(uuid "b6916156-e0e2-4e8a-afc4-84b30135ea99")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 52.07 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b3d2765-bfa9-41d4-b456-73604394947c")
-		(property "Reference" "J1"
-			(at 52.705 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INPUT"
-			(at 52.705 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 52.07 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72190350-3051-4fc1-a797-54c80c26287a")
-		)
-		(pin "1"
-			(uuid "f4c366f5-53e0-4ae0-9b1e-4f10a2127c3f")
-		)
-		(instances
-			(project ""
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2287,7 +2051,7 @@
 			(uuid "8c3bafe5-a7b0-47e6-961a-147761b0d37e")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR023")
 					(unit 1)
@@ -2354,7 +2118,7 @@
 			(uuid "28a150f4-5bf5-4f19-8cf1-c95228f6d900")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR022")
 					(unit 1)
@@ -2424,7 +2188,7 @@
 			(uuid "e45fe1ea-49a0-4bed-923a-8f627bd8006a")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "C1")
 					(unit 1)
@@ -2521,7 +2285,7 @@
 			(uuid "ce9c6529-d888-4c9f-b8f5-ca0df27a2c1a")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "U1")
 					(unit 1)
@@ -2587,7 +2351,7 @@
 			(uuid "238a241d-874b-41de-8624-e0c35dbb2848")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR01")
 					(unit 1)
@@ -2651,7 +2415,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "H1")
 					(unit 1)
@@ -2721,7 +2485,7 @@
 			(uuid "6280585a-4bdc-48e2-9a96-0e7f2fd57a5f")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "R3")
 					(unit 1)
@@ -2787,7 +2551,7 @@
 			(uuid "a2af9201-2919-4e5c-a791-5cd9690a090f")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR05")
 					(unit 1)
@@ -2854,7 +2618,7 @@
 			(uuid "c372970d-177e-405c-bdd5-894f79ed9f35")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR021")
 					(unit 1)
@@ -2924,7 +2688,7 @@
 			(uuid "78abab3a-5f2c-41eb-abb3-e170110dc1c7")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "C3")
 					(unit 1)
@@ -2990,7 +2754,7 @@
 			(uuid "6072dec7-1f0b-4984-82b2-3311629114ee")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR08")
 					(unit 1)
@@ -3056,7 +2820,7 @@
 			(uuid "80eb2d40-d07d-4d2a-b484-d40f7d39416e")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR09")
 					(unit 1)
@@ -3120,7 +2884,7 @@
 			(uuid "9d4703b7-8fe2-4220-8277-54800c9216c1")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "J6")
 					(unit 1)
@@ -3186,7 +2950,7 @@
 			(uuid "bd38ca15-46f4-47e9-812a-3458b37e4edc")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR06")
 					(unit 1)
@@ -3250,7 +3014,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "H4")
 					(unit 1)
@@ -3316,7 +3080,7 @@
 			(uuid "f5ae4f03-9fe7-4f0d-9e77-1e892a9aa592")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR03")
 					(unit 1)
@@ -3380,7 +3144,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "H3")
 					(unit 1)
@@ -3446,7 +3210,7 @@
 			(uuid "add2c1b2-53ed-43dc-8df2-ab830a5a1649")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR020")
 					(unit 1)
@@ -3516,7 +3280,7 @@
 			(uuid "5f8be0a0-22c8-4943-9393-043d5215f5f3")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "C6")
 					(unit 1)
@@ -3584,7 +3348,7 @@
 			(uuid "fd8fc382-c451-44a1-bcdc-4aa4efdd0ece")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "R5")
 					(unit 1)
@@ -3650,7 +3414,7 @@
 			(uuid "bbf6a378-fb14-41d1-bbbb-e98da2c0a9b1")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR02")
 					(unit 1)
@@ -3720,7 +3484,7 @@
 			(uuid "0f9da13c-0559-40fb-a664-e4a2b5e18660")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "R6")
 					(unit 1)
@@ -3786,7 +3550,7 @@
 			(uuid "4d09d532-1a5d-4893-8166-5be42c363e28")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR07")
 					(unit 1)
@@ -3856,7 +3620,7 @@
 			(uuid "4bc177dc-cd8c-4171-8022-3c3ae555bd8b")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "C2")
 					(unit 1)
@@ -3921,7 +3685,7 @@
 			(uuid "15940ca8-2541-4e2b-b83f-c6b0c7a5d26f")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "J3")
 					(unit 1)
@@ -3985,7 +3749,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "H2")
 					(unit 1)
@@ -4050,7 +3814,7 @@
 			(uuid "43c5a448-f490-424f-8c55-c840e8d9573e")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "J2")
 					(unit 1)
@@ -4118,75 +3882,9 @@
 			(uuid "4901abf5-6cdd-49b6-9f3d-b3102d8a9aa5")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4c53cbe-01ef-4a6e-9b79-e106a00866b4")
-		(property "Reference" "#PWR04"
-			(at 59.69 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77d46ae9-99a7-48c7-8b1d-f10f081b3fc8")
-		)
-		(instances
-			(project ""
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4254,7 +3952,7 @@
 			(uuid "0922a9d8-bed6-4790-b19c-a32d913aa32e")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "C4")
 					(unit 1)
@@ -4324,7 +4022,7 @@
 			(uuid "d70d18e9-f99d-4b39-ab15-46db268e498f")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "R1")
 					(unit 1)
@@ -4394,7 +4092,7 @@
 			(uuid "995bf745-7969-41c3-a4aa-a2e5771d09ef")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "C5")
 					(unit 1)

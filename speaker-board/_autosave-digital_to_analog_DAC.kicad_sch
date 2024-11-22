@@ -901,7 +901,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 130.81) (xy 187.96 80.01)
+			(xy 191.77 132.08) (xy 191.77 81.28)
 		)
 		(stroke
 			(width 0)
@@ -931,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 130.81) (xy 187.96 130.81)
+			(xy 144.78 132.08) (xy 191.77 132.08)
 		)
 		(stroke
 			(width 0)
@@ -961,7 +961,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 80.01) (xy 187.96 80.01)
+			(xy 149.86 81.28) (xy 191.77 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1081,7 +1081,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 80.01) (xy 149.86 66.04)
+			(xy 149.86 81.28) (xy 149.86 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1201,7 +1201,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 92.71) (xy 185.42 92.71)
+			(xy 173.99 92.71) (xy 184.15 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1271,7 +1271,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 129.54) (xy 144.78 130.81)
+			(xy 144.78 132.08) (xy 144.78 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1367,7 +1367,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 185.42 92.71 0)
+		(at 184.15 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1376,7 +1376,7 @@
 		(fields_autoplaced yes)
 		(uuid "033ee795-606e-486a-8cac-47302ee7e369")
 		(property "Reference" "#PWR017"
-			(at 185.42 96.52 0)
+			(at 184.15 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1385,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 185.42 87.63 0)
+			(at 184.15 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,7 +1393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 92.71 0)
+			(at 184.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 92.71 0)
+			(at 184.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 185.42 92.71 0)
+			(at 184.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
