@@ -1554,6 +1554,30 @@
 		)
 		(uuid "f84188ba-d664-42e4-b40f-7b154103b157")
 	)
+	(hierarchical_label "I2S_SCLK_BM83"
+		(shape input)
+		(at 121.92 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ff8f660-6f97-4bfc-b389-9ea33df1d4e8")
+	)
+	(hierarchical_label "I2S_DR1_BM83"
+		(shape input)
+		(at 121.92 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ffc4453-2a74-43ed-adf3-8ae810f2c09a")
+	)
 	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 167.64 125.73 0)
@@ -1566,6 +1590,30 @@
 		)
 		(uuid "6966d7b2-445d-4ba5-af22-ad8b04727e30")
 	)
+	(hierarchical_label "I2S_MCLK1_BM83"
+		(shape input)
+		(at 121.92 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7434601e-4745-4529-b48b-f97d356bde6a")
+	)
+	(hierarchical_label "I2S_DT1_BM83"
+		(shape input)
+		(at 121.92 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c5ac0ab-fcbd-4c3c-99f5-b1ed07cef75e")
+	)
 	(hierarchical_label "UART_TX"
 		(shape input)
 		(at 167.64 123.19 0)
@@ -1577,6 +1625,18 @@
 			(justify left)
 		)
 		(uuid "9904c156-910b-4c60-a8bb-26a4586375d0")
+	)
+	(hierarchical_label "I2S_RFS1_BM83"
+		(shape input)
+		(at 121.92 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8aace46-0cca-48ee-b25f-b2973ff92dbd")
 	)
 	(symbol
 		(lib_id "power:GND")

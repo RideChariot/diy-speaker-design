@@ -36,7 +36,7 @@
 			)
 		)
 		(pin "UART_TX" input
-			(at 31.75 121.92 180)
+			(at 31.75 143.51 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +46,7 @@
 			(uuid "7978fbba-699e-47db-b748-3a448caf883f")
 		)
 		(pin "UART_RX" input
-			(at 31.75 127 180)
+			(at 31.75 147.32 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,6 +54,56 @@
 				(justify left)
 			)
 			(uuid "dde8bcff-37fc-47fd-af09-630cf809470d")
+		)
+		(pin "I2S_DR1_BM83" input
+			(at 31.75 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1a7a3dc4-053e-4042-b2d7-514aceee0076")
+		)
+		(pin "I2S_RFS1_BM83" input
+			(at 31.75 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d0ee520-7f08-4e3d-8731-bcceafbd9009")
+		)
+		(pin "I2S_SCLK_BM83" input
+			(at 31.75 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b627652a-2afb-4fbb-85fb-b3adcd9dcd77")
+		)
+		(pin "I2S_DT1_BM83" input
+			(at 31.75 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4586787-222c-4e26-84ac-cb1b6d284107")
+		)
+		(pin "I2S_MCLK1_BM83" input
+			(at 31.75 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db85f7db-c117-4954-a769-9c5584919dfc")
 		)
 		(instances
 			(project "speaker-board"
