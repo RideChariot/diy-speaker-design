@@ -285,6 +285,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -409,6 +410,10 @@
     [
       "3e1ea607-f5fc-4c19-bf1d-3fd31df2bc8f",
       "Connectors"
+    ],
+    [
+      "0ca5d605-f4b3-4004-89f4-0e349b36f8c6",
+      "Crossovers"
     ]
   ],
   "text_variables": {}

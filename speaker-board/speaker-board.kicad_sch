@@ -6,6 +6,74 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 203.2 31.115)
+		(size 33.02 57.785)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ca5d605-f4b3-4004-89f4-0e349b36f8c6")
+		(property "Sheetname" "Crossovers"
+			(at 203.2 30.4034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 203.2 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "low_pass_1" input
+			(at 203.2 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9b5a188-1fe2-41d9-a08f-f29f53847e7b")
+		)
+		(pin "high_pass_2" input
+			(at 203.2 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2dd7966d-3a3f-462d-998b-a494f1221a39")
+		)
+		(pin "high_pass_1" input
+			(at 203.2 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c7ddfbba-1d26-49a3-b57f-77570302b907")
+		)
+		(instances
+			(project "speaker-board"
+				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 31.75 104.14)
 		(size 35.56 53.34)
 		(fields_autoplaced yes)
@@ -180,6 +248,36 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "high_pass_1" input
+			(at 85.09 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42fdba13-5f64-48d6-8c61-d4bbbd548250")
+		)
+		(pin "high_pass_2" input
+			(at 85.09 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "acd92e9e-bc93-402c-8468-e64905a39e00")
+		)
+		(pin "low_pass_1" input
+			(at 85.09 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9114860e-3888-4114-9bb9-455a1b955f92")
 		)
 		(instances
 			(project "speaker-board"

@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "6868317e-c92b-49d4-86b1-32ebd28f4e35")
+	(uuid "d014ff3a-b976-4c95-82ad-7e17945b537c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1164,7 +1164,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "6.6uF"
 			(at 91.44 57.15 90)
 			(effects
 				(font
@@ -1436,7 +1436,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "6.6uF"
 			(at 91.44 90.17 90)
 			(effects
 				(font
