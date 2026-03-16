@@ -1,13 +1,17 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4d2291af-ba5f-4125-9b43-741823f4a2c8")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
 		(at 203.2 31.115)
 		(size 33.02 57.785)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -37,33 +41,33 @@
 		)
 		(pin "low_pass_1" input
 			(at 203.2 43.18 180)
+			(uuid "c9b5a188-1fe2-41d9-a08f-f29f53847e7b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c9b5a188-1fe2-41d9-a08f-f29f53847e7b")
 		)
 		(pin "high_pass_2" input
 			(at 203.2 53.34 180)
+			(uuid "2dd7966d-3a3f-462d-998b-a494f1221a39")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2dd7966d-3a3f-462d-998b-a494f1221a39")
 		)
 		(pin "high_pass_1" input
 			(at 203.2 48.26 180)
+			(uuid "c7ddfbba-1d26-49a3-b57f-77570302b907")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c7ddfbba-1d26-49a3-b57f-77570302b907")
 		)
 		(instances
 			(project "speaker-board"
@@ -76,6 +80,10 @@
 	(sheet
 		(at 31.75 104.14)
 		(size 35.56 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -105,73 +113,73 @@
 		)
 		(pin "UART_TX" input
 			(at 31.75 143.51 180)
+			(uuid "7978fbba-699e-47db-b748-3a448caf883f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7978fbba-699e-47db-b748-3a448caf883f")
 		)
 		(pin "UART_RX" input
 			(at 31.75 147.32 180)
+			(uuid "dde8bcff-37fc-47fd-af09-630cf809470d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dde8bcff-37fc-47fd-af09-630cf809470d")
 		)
 		(pin "I2S_DR1_BM83" input
 			(at 31.75 118.11 180)
+			(uuid "1a7a3dc4-053e-4042-b2d7-514aceee0076")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1a7a3dc4-053e-4042-b2d7-514aceee0076")
 		)
 		(pin "I2S_RFS1_BM83" input
 			(at 31.75 120.65 180)
+			(uuid "0d0ee520-7f08-4e3d-8731-bcceafbd9009")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0d0ee520-7f08-4e3d-8731-bcceafbd9009")
 		)
 		(pin "I2S_SCLK_BM83" input
 			(at 31.75 123.19 180)
+			(uuid "b627652a-2afb-4fbb-85fb-b3adcd9dcd77")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b627652a-2afb-4fbb-85fb-b3adcd9dcd77")
 		)
 		(pin "I2S_DT1_BM83" input
 			(at 31.75 125.73 180)
+			(uuid "b4586787-222c-4e26-84ac-cb1b6d284107")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b4586787-222c-4e26-84ac-cb1b6d284107")
 		)
 		(pin "I2S_MCLK1_BM83" input
 			(at 31.75 128.27 180)
+			(uuid "db85f7db-c117-4954-a769-9c5584919dfc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "db85f7db-c117-4954-a769-9c5584919dfc")
 		)
 		(instances
 			(project "speaker-board"
@@ -184,6 +192,10 @@
 	(sheet
 		(at 135.89 102.87)
 		(size 34.29 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -222,6 +234,10 @@
 	(sheet
 		(at 85.09 104.14)
 		(size 36.83 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -251,33 +267,33 @@
 		)
 		(pin "high_pass_1" input
 			(at 85.09 120.65 180)
+			(uuid "42fdba13-5f64-48d6-8c61-d4bbbd548250")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "42fdba13-5f64-48d6-8c61-d4bbbd548250")
 		)
 		(pin "high_pass_2" input
 			(at 85.09 124.46 180)
+			(uuid "acd92e9e-bc93-402c-8468-e64905a39e00")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "acd92e9e-bc93-402c-8468-e64905a39e00")
 		)
 		(pin "low_pass_1" input
 			(at 85.09 116.84 180)
+			(uuid "9114860e-3888-4114-9bb9-455a1b955f92")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9114860e-3888-4114-9bb9-455a1b955f92")
 		)
 		(instances
 			(project "speaker-board"
@@ -290,6 +306,10 @@
 	(sheet
 		(at 92.71 31.75)
 		(size 31.75 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -328,6 +348,10 @@
 	(sheet
 		(at 31.75 33.02)
 		(size 35.56 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -366,6 +390,10 @@
 	(sheet
 		(at 146.05 31.75)
 		(size 35.56 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -406,4 +434,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
