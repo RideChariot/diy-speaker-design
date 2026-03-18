@@ -5,3 +5,5 @@ speaker-board/_autosave-speaker-board.kicad_sch
 speaker-board/bluetooth.kicad_sch-bak
 speaker-board/speaker-board.kicad_sch-bak
 speaker-board/sym-lib-table
+Libraries/.DS_Store
+.DS_Store
