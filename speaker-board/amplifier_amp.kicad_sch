@@ -4850,6 +4850,179 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 240.03 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02ff792a-dc38-4186-ac7c-5036e3789b20")
+		(property "Reference" "C24"
+			(at 242.57 67.3162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 242.57 69.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C0805C102J5GACTU"
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/kemet/C0805C102J5GACTU/411135"
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfff9783-34e5-4f65-a2c1-5b254aa84c05")
+		)
+		(pin "1"
+			(uuid "d393e0bf-f0a7-4794-a07d-94529782bc81")
+		)
+		(instances
+			(project "speaker-board"
+				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "073544f7-d151-4892-8baf-1979c4689760")
+		(property "Reference" "C20"
+			(at 185.674 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33n"
+			(at 185.674 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 66.3448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C0805C333K5RECAUTO"
+			(at 185.42 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/kemet/C0805C333K5RECAUTO/8646705"
+			(at 185.42 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34012493-d775-4075-a55b-f7459a794837")
+		)
+		(pin "2"
+			(uuid "0a5b686d-cfef-4803-8bb0-df0fe20a1f61")
+		)
+		(instances
+			(project "speaker-board"
+				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 185.42 80.01 180)
 		(unit 1)
@@ -4896,6 +5069,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ESY477M035AH4AA"
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/kemet/ESY477M035AH4AA/2712534"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -4989,16 +5180,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 240.03 128.27 0)
+		(at 252.73 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0e703859-6a05-438b-80a9-15e50ba319df")
-		(property "Reference" "C34"
-			(at 242.57 127.0062 0)
+		(uuid "0f83072a-ea02-4b8a-a034-0c023f4a5c52")
+		(property "Reference" "C27"
+			(at 255.27 63.5062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,8 +5197,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
-			(at 242.57 129.5462 0)
+		(property "Value" "10n"
+			(at 255.27 66.0462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +5207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 128.27 0)
+			(at 252.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +5216,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 128.27 0)
+			(at 252.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +5225,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 240.03 128.27 0)
+			(at 252.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "GRM1885C1H103JA01D"
+			(at 252.73 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H103JA01D/4421555"
+			(at 252.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,15 +5252,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6d562bd9-79b6-4925-8ff5-e8e43da38be5")
+			(uuid "eaaa20ce-a634-4ee3-abe5-084bf032a6dc")
 		)
 		(pin "1"
-			(uuid "9a56df62-3450-4faa-a68f-d786c8971b5f")
+			(uuid "7cf9e069-d2d4-44ec-88ad-ce283a49be3b")
 		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C34")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -5104,6 +5313,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ESY477M035AH4AA"
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/kemet/ESY477M035AH4AA/2712534"
 			(at 186.69 100.33 0)
 			(effects
 				(font
@@ -5199,76 +5426,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 222.25 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13cb436b-eab0-4223-b6fe-6db1e09bbe22")
-		(property "Reference" "C23"
-			(at 224.79 69.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 224.79 72.3962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 222.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dc701728-d5d0-4e6a-9db4-2d9f8f8f2d5f")
-		)
-		(pin "1"
-			(uuid "7a1e618e-5959-4173-928e-d57f7dc11ce0")
-		)
-		(instances
-			(project "speaker-board"
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 91.44 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5335,35 +5492,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 252.73 132.08 0)
+		(lib_id "Device:C")
+		(at 177.8 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22bd35bd-ac2b-4c48-8f3f-fd78ed413ebd")
-		(property "Reference" "C36"
-			(at 255.27 130.8162 0)
+		(uuid "24889e3d-49f4-4f7b-9e47-066b16848adc")
+		(property "Reference" "C38"
+			(at 178.054 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 255.27 133.3562 0)
+		(property "Value" "33n"
+			(at 178.054 142.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 132.08 0)
+			(at 181.61 134.9248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5526,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 132.08 0)
+			(at 177.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,8 +5534,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 252.73 132.08 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,50 +5543,67 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4b1a1c21-3ba4-4e9b-b688-0782b9b29742")
+		(property "Part #" "C0805C333K5RECAUTO"
+			(at 177.8 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/kemet/C0805C333K5RECAUTO/8646705"
+			(at 177.8 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "6b7d1529-86c7-447c-91f6-e72fde004eb9")
+			(uuid "8343dd8a-1ef3-407f-8e1d-e219ffd26df7")
+		)
+		(pin "2"
+			(uuid "c4e6d740-005f-4555-ae39-91a7b494acaa")
 		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C36")
+					(reference "C38")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 113.03 40.64 0)
+		(lib_id "Device:L")
+		(at 214.63 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "232ca312-7a20-4b8f-83d5-be4722914ce5")
-		(property "Reference" "C44"
-			(at 106.934 39.116 0)
+		(fields_autoplaced yes)
+		(uuid "2d38b24b-937f-451f-adfc-a903891864a5")
+		(property "Reference" "L3"
+			(at 214.63 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10u"
-			(at 106.934 41.656 0)
+			(at 214.63 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 40.64 0)
+			(at 214.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,8 +5611,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.03 40.64 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/sumida-america-inc/CDEP147NP-100MC-125/3232565"
+			(at 214.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,8 +5620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 113.03 40.64 0)
+		(property "Description" "Inductor"
+			(at 214.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,16 +5629,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f817d6da-5922-45e8-af17-e542737da320")
+		(property "Part #" "CDEP147NP-100MC-125"
+			(at 214.63 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/sumida-america-inc/CDEP147NP-100MC-125/3232565"
+			(at 214.63 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "e85c9e9f-c943-45ab-bdb1-d39dc5a2deda")
+			(uuid "b6f15cc1-c2c7-48fa-bb6f-444e7a62e8b0")
+		)
+		(pin "2"
+			(uuid "754bfea1-a725-47d7-b1a7-4cedf8b7c0ac")
 		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C44")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -5541,15 +5730,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 252.73 64.77 180)
+		(at 240.03 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "30be24b4-15f9-4f6c-8868-836577e0c8d6")
-		(property "Reference" "C27"
-			(at 259.08 66.548 0)
+		(fields_autoplaced yes)
+		(uuid "2dd5c89f-f33c-4916-b138-db008da5e11f")
+		(property "Reference" "C33"
+			(at 242.57 113.0362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,8 +5747,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 259.08 64.008 0)
+		(property "Value" "1n"
+			(at 242.57 115.5762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 64.77 0)
+			(at 240.03 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 64.77 0)
+			(at 240.03 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5775,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 252.73 64.77 0)
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C0805C102J5GACTU"
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/kemet/C0805C102J5GACTU/411135"
+			(at 240.03 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,15 +5802,189 @@
 			)
 		)
 		(pin "2"
-			(uuid "d69ffaa1-ea37-45bd-83dc-6f34d405b2f0")
+			(uuid "b4674603-7227-4df5-99c9-849550afe504")
 		)
 		(pin "1"
-			(uuid "03e9aa55-d784-4c43-a0e7-1307d4e791d0")
+			(uuid "f0bb426d-83ed-4a17-b01e-0d2c3492e4e3")
 		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C27")
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 214.63 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ef0c9a1-1236-4ae7-9105-00be8abe2b72")
+		(property "Reference" "L5"
+			(at 214.63 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 214.63 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/sumida-america-inc/CDEP147NP-100MC-125/3232565"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CDEP147NP-100MC-125"
+			(at 214.63 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/sumida-america-inc/CDEP147NP-100MC-125/3232565"
+			(at 214.63 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85118ac0-7fa4-40bc-8281-009a60e01f7a")
+		)
+		(pin "2"
+			(uuid "8d38abb6-a4f3-48a4-9684-03d024733ebf")
+		)
+		(instances
+			(project "speaker-board"
+				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 222.25 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f62c62e-3d69-4d55-8ec4-7a18e8f507e8")
+		(property "Reference" "C31"
+			(at 224.79 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 224.79 118.1162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ECW-FE2W105K"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ECW-FE2W105K/4931405"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce705597-359f-417e-a0ad-57a8913495a5")
+		)
+		(pin "1"
+			(uuid "af6d6f20-80da-45b4-bde8-c5c2bb2c3341")
+		)
+		(instances
+			(project "speaker-board"
+				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -5726,6 +6108,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "C0805C333K5RECAUTO"
+			(at 185.42 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/kemet/C0805C333K5RECAUTO/8646705"
+			(at 185.42 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f2ce9e0-d10b-4ab3-8a37-af71ed0fd3ea")
 		)
@@ -5796,6 +6196,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "GRM1885C1H103JA01D"
+			(at 252.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H103JA01D/4421555"
+			(at 252.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f547a70-2d90-4f02-a0f8-33dd0f9012e4")
 		)
@@ -5857,6 +6275,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "UCL1V100MCL1GS"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/nichicon/UCL1V100MCL1GS/2300297"
 			(at 113.03 158.75 0)
 			(effects
 				(font
@@ -5945,6 +6381,94 @@
 			(project ""
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 252.73 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45297cfe-5068-487f-9c7c-14b024c69e13")
+		(property "Reference" "C35"
+			(at 255.27 109.2262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 255.27 111.7662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "GRM1885C1H103JA01D"
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H103JA01D/4421555"
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbee839f-744a-4618-b173-245efba5a3c8")
+		)
+		(pin "1"
+			(uuid "c4d988ab-3b0f-449d-ae85-8612cfd80129")
+		)
+		(instances
+			(project "speaker-board"
+				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -6089,75 +6613,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 252.73 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ccaf9c9-fe5e-45ee-8cd7-7ec40da27007")
-		(property "Reference" "C35"
-			(at 259.08 112.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 259.08 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 252.73 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0339a6c4-71a2-4b75-a555-ef9d717e3332")
-		)
-		(pin "1"
-			(uuid "37e34ea4-e7a1-4a7b-b9f1-33a1222b2ea4")
-		)
-		(instances
-			(project "speaker-board"
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 176.53 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6221,75 +6676,6 @@
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 252.73 115.57 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d3abd1e-95ae-49fa-ad8e-153940145620")
-		(property "Reference" "R14"
-			(at 259.08 117.3543 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3"
-			(at 259.08 114.8143 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 252.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93a4bd4a-5625-49f5-b506-dd155c5f6a4b")
-		)
-		(pin "1"
-			(uuid "08a4b521-6081-4f7b-9960-cc1ac30ce79a")
-		)
-		(instances
-			(project "speaker-board"
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6611,76 +6997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 252.73 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b450751-37d6-47ec-a218-28c8cf8f4fb9")
-		(property "Reference" "R15"
-			(at 255.27 125.7299 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3"
-			(at 255.27 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 252.73 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1e34edcf-ef0e-4b83-bea8-df623089be08")
-		)
-		(pin "1"
-			(uuid "ea62ea2b-ecd1-4e35-b4dc-b06132009f0c")
-		)
-		(instances
-			(project "speaker-board"
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 104.14 90.17 90)
 		(unit 1)
@@ -6750,16 +7066,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 240.03 68.58 0)
+		(at 222.25 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63561023-cee3-4fc0-9237-c4dee020cc6d")
-		(property "Reference" "C24"
-			(at 242.57 67.3162 0)
+		(uuid "643b8d3f-e0ef-4454-924e-88e6380efd09")
+		(property "Reference" "C32"
+			(at 224.79 124.4662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6767,8 +7083,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
-			(at 242.57 69.8562 0)
+		(property "Value" "1u"
+			(at 224.79 127.0062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +7093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 68.58 0)
+			(at 222.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +7102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 68.58 0)
+			(at 222.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +7111,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 240.03 68.58 0)
+			(at 222.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ECW-FE2W105K"
+			(at 222.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ECW-FE2W105K/4931405"
+			(at 222.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,83 +7138,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e12d7aed-4f06-4d0a-9db6-3ea830d866f5")
+			(uuid "b7dffd78-0cab-400b-adc7-80debc0876b7")
 		)
 		(pin "1"
-			(uuid "0af8d6c7-fab2-4f36-9438-49c3db9b9c8f")
+			(uuid "8180175a-084c-4c99-85a4-090bbb7f366e")
 		)
 		(instances
-			(project ""
+			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 177.8 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63c8c7a1-afc9-4cf0-82be-e18c0cbae8b9")
-		(property "Reference" "C19"
-			(at 177.8 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33n"
-			(at 177.8 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 63.8048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.8 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f71db7a-fd64-4e38-9348-f5c27a210bde")
-		)
-		(pin "2"
-			(uuid "0f350d6b-a91c-4423-a8c7-cd35dc66a3e0")
-		)
-		(instances
-			(project ""
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C19")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -7020,144 +7286,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 214.63 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71782315-0b95-48a9-978a-b2c2ddb5c7d6")
-		(property "Reference" "L5"
-			(at 214.63 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 214.63 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 214.63 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dec4dfe3-3072-416a-a727-3d986cffed9d")
-		)
-		(pin "2"
-			(uuid "b94bb6c3-0efd-4d03-bb7f-054c20e457a6")
-		)
-		(instances
-			(project "speaker-board"
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 222.25 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7469796f-45c4-48a7-ad94-a3c695e374a7")
-		(property "Reference" "C31"
-			(at 224.79 115.5762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 224.79 118.1162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 222.25 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22bdb4d8-aa49-4fad-9602-4e2a7c87b95c")
-		)
-		(pin "1"
-			(uuid "efe8615a-9219-49db-b8fd-e7d8db3ca1d7")
-		)
-		(instances
-			(project "speaker-board"
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 240.03 82.55 0)
 		(unit 1)
@@ -7212,6 +7340,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "C0805C102J5GACTU"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/kemet/C0805C102J5GACTU/411135"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "968682e3-f0f8-40ec-99e9-9b1ab0077d11")
 		)
@@ -7229,16 +7375,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 240.03 114.3 0)
+		(at 113.03 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88db67ad-ab3a-4793-bea6-770e7320efb1")
-		(property "Reference" "C33"
-			(at 242.57 113.0362 0)
+		(uuid "8c2b98de-99de-4e15-8200-a24725047286")
+		(property "Reference" "C44"
+			(at 107.188 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,8 +7391,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
-			(at 242.57 115.5762 0)
+		(property "Value" "10u"
+			(at 107.188 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 114.3 0)
+			(at 113.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +7410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 114.3 0)
+			(at 113.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7419,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 240.03 114.3 0)
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "UCL1V100MCL1GS"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/nichicon/UCL1V100MCL1GS/2300297"
+			(at 113.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,15 +7446,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a4b7b61c-1730-4308-8cdd-99b81df54b90")
+			(uuid "c99560b7-9f8f-4c96-8461-c62992049fd5")
 		)
 		(pin "1"
-			(uuid "a3d5769e-6976-40c0-995a-9c9f6979ca38")
+			(uuid "f1c30476-bd44-4411-bfa3-f8eb293da191")
 		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C33")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -7343,6 +7506,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 252.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RCS12063R30FKEA"
+			(at 252.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/vishay-dale/RCS12063R30FKEA/10059704"
 			(at 252.73 69.85 0)
 			(effects
 				(font
@@ -7487,6 +7668,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" "ESY477M035AH4AA"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digkey Link" "https://www.digikey.com/en/products/detail/kemet/ESY477M035AH4AA/2712534"
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6448c2c3-cf2f-4c34-a29d-b12143c4efe7")
 		)
@@ -7570,32 +7769,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 185.42 67.31 90)
+		(lib_id "Device:R_Small")
+		(at 252.73 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a633bcca-673d-4fb0-8609-4a731d11b955")
-		(property "Reference" "C20"
-			(at 185.674 71.628 90)
+		(uuid "a6da6e55-549d-4f68-8a8a-cf148211506a")
+		(property "Reference" "R14"
+			(at 259.08 117.3543 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "33n"
-			(at 185.674 74.168 90)
+		(property "Value" "3.3"
+			(at 259.08 114.8143 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 66.3448 0)
+			(at 252.73 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +7805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 67.31 0)
+			(at 252.73 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7612,8 +7813,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 67.31 0)
+		(property "Description" "Resistor, small symbol"
+			(at 252.73 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,16 +7822,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0657c72d-7d9d-4fd1-b058-de3f14fba94d")
+		(property "Part #" "RCS12063R30FKEA"
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/vishay-dale/RCS12063R30FKEA/10059704"
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "cde218f3-fc00-4f1e-bfb5-b6a8be568d8e")
+			(uuid "d20b3a80-af8b-4b57-80cd-a30c1f019ff7")
+		)
+		(pin "1"
+			(uuid "3592a8b4-55c9-4d42-9d62-f99e501966a1")
 		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C20")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7683,6 +7902,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 252.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RCS12063R30FKEA"
+			(at 252.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/vishay-dale/RCS12063R30FKEA/10059704"
 			(at 252.73 81.28 0)
 			(effects
 				(font
@@ -7777,35 +8014,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 222.25 125.73 0)
+		(lib_id "Device:C")
+		(at 177.8 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be1d4277-3a53-4e64-8256-07b3dd13f116")
-		(property "Reference" "C32"
-			(at 224.79 124.4662 0)
+		(uuid "b8f3eb15-f71d-4f99-b7e7-8f48308cbf00")
+		(property "Reference" "C19"
+			(at 177.546 58.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 224.79 127.0062 0)
+		(property "Value" "33n"
+			(at 177.546 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 125.73 0)
+			(at 181.61 63.8048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,7 +8048,94 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 125.73 0)
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C0805C333K5RECAUTO"
+			(at 177.8 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/kemet/C0805C333K5RECAUTO/8646705"
+			(at 177.8 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b47eab0f-2a32-4877-8457-b329a9920968")
+		)
+		(pin "2"
+			(uuid "01fbfbe5-6fe5-4c2e-9e19-f65a4e1b8891")
+		)
+		(instances
+			(project "speaker-board"
+				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 115.57 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c45f7568-0915-4186-9a24-f19020b7ae4a")
+		(property "Reference" "C45"
+			(at 118.364 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 118.364 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7823,7 +8144,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 222.25 125.73 0)
+			(at 115.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "UCL1V100MCL1GS"
+			(at 115.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/nichicon/UCL1V100MCL1GS/2300297"
+			(at 115.57 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,15 +8171,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "89d1d99c-2f3b-4936-add3-c4dad4cf7c51")
+			(uuid "e601e63e-afb6-4057-841c-2d11879104d5")
 		)
 		(pin "1"
-			(uuid "a9eab7b4-69b8-4c1f-9a2e-d7bd496878fb")
+			(uuid "2e2edf06-4695-4902-b3a1-db08bc4be733")
 		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C32")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -7917,24 +8256,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 177.8 135.89 90)
+		(lib_id "Device:L")
+		(at 214.63 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ca92de12-7450-449a-82f8-71ca9b78e063")
-		(property "Reference" "C38"
-			(at 178.054 140.208 90)
+		(fields_autoplaced yes)
+		(uuid "c5d67a84-41ac-4f1c-a20d-7964c9c1c9a7")
+		(property "Reference" "L4"
+			(at 214.63 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33n"
-			(at 178.054 142.748 90)
+		(property "Value" "10u"
+			(at 214.63 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,7 +8282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 134.9248 0)
+			(at 214.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,8 +8290,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 177.8 135.89 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/sumida-america-inc/CDEP147NP-100MC-125/3232565"
+			(at 214.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,8 +8299,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.8 135.89 0)
+		(property "Description" "Inductor"
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CDEP147NP-100MC-125"
+			(at 214.63 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/sumida-america-inc/CDEP147NP-100MC-125/3232565"
+			(at 214.63 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,15 +8327,103 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ed95fd7-40d6-48fb-b18d-506cd8a2c82f")
+			(uuid "ef11b554-0a7f-44e3-b2af-376ed4d960db")
 		)
 		(pin "2"
-			(uuid "3b3c8a45-f0ee-48a2-9e74-53bedc2a5bc1")
+			(uuid "05075b30-bfee-43d1-ad60-c1195c8b07e8")
 		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C38")
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 240.03 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce455383-0ab0-4408-be23-ba3b4c82501e")
+		(property "Reference" "C34"
+			(at 242.57 127.0062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 242.57 129.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C0805C102J5GACTU"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/kemet/C0805C102J5GACTU/411135"
+			(at 240.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e17a02da-9e66-4fd9-980c-ccc9c23c1111")
+		)
+		(pin "1"
+			(uuid "c5359106-60ba-45a1-81e8-c9b68d50b0e0")
+		)
+		(instances
+			(project "speaker-board"
+				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -8018,7 +8464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/sumida-america-inc/CDEP147NP-100MC-125/3232565"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -8029,6 +8475,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 214.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CDEP147NP-100MC-125"
+			(at 214.63 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/sumida-america-inc/CDEP147NP-100MC-125/3232565"
+			(at 214.63 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,16 +8517,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 115.57 48.26 0)
+		(at 114.3 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8436542-fdb2-4c3a-b14d-5adabafe690b")
-		(property "Reference" "C45"
-			(at 118.11 46.9962 0)
+		(uuid "dab1d31a-c66c-48a5-b56a-5fcf3a92e3a1")
+		(property "Reference" "C42"
+			(at 117.094 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +8534,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 118.11 49.5362 0)
+			(at 117.094 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +8543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 48.26 0)
+			(at 114.3 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 48.26 0)
+			(at 114.3 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8561,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 115.57 48.26 0)
+			(at 114.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "UCL1V100MCL1GS"
+			(at 114.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/nichicon/UCL1V100MCL1GS/2300297"
+			(at 114.3 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,15 +8588,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e2f2bf1a-a8ba-462e-abe5-2a46f6c7b43d")
+			(uuid "0f6bef55-8637-4ae3-9d9d-1b719abbb9d2")
 		)
 		(pin "1"
-			(uuid "c8f2d8ae-e66d-434c-98e3-7470287cdd4e")
+			(uuid "3eb7fccc-783d-47a9-bbd5-ada8d7811c3a")
 		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C45")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -8182,74 +8663,6 @@
 			(project ""
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 214.63 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfa469ac-8398-4654-a04b-2062f6e36643")
-		(property "Reference" "L3"
-			(at 214.63 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 214.63 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31d7bed8-8df7-4f2b-a141-4dd52cf0afc3")
-		)
-		(pin "2"
-			(uuid "a0a4fc14-5b53-417d-84e7-b97b7bc06bed")
-		)
-		(instances
-			(project "speaker-board"
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -8388,76 +8801,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 114.3 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e24b86ea-0d91-4476-b61c-8337f6fd6889")
-		(property "Reference" "C42"
-			(at 116.84 167.6462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 116.84 170.1862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 114.3 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "45c35c0c-fe2f-43e6-b00d-2d056f36b27b")
-		)
-		(pin "1"
-			(uuid "25b29aab-19b3-4334-be98-04a3353ff614")
-		)
-		(instances
-			(project ""
-				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 200.66 52.07 0)
 		(unit 1)
@@ -8518,6 +8861,94 @@
 			(project ""
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 222.25 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6a5cd79-15b6-456e-974e-f19cbe31c974")
+		(property "Reference" "C23"
+			(at 224.79 69.8562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 224.79 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ECW-FE2W105K"
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ECW-FE2W105K/4931405"
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0fd180e-fdc2-45cf-be55-273956b56446")
+		)
+		(pin "1"
+			(uuid "079b4c6f-8464-4765-ad5c-b1f267d39c4b")
+		)
+		(instances
+			(project "speaker-board"
+				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8661,33 +9092,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 214.63 113.03 90)
+		(lib_id "Device:C_Small")
+		(at 252.73 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f3cc4a4c-bdab-4aba-9cd7-b1c5b2e3ea2d")
-		(property "Reference" "L4"
-			(at 214.63 107.95 90)
+		(uuid "f87352b3-76f1-4620-99ae-4924f269709f")
+		(property "Reference" "C36"
+			(at 255.27 130.8162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 214.63 110.49 90)
+		(property "Value" "10n"
+			(at 255.27 133.3562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 113.03 0)
+			(at 252.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +9129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 113.03 0)
+			(at 252.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,8 +9137,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 214.63 113.03 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 252.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,16 +9146,122 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "02a318a3-dd4b-44a4-8abc-462d07bca6bc")
+		(property "Part #" "GRM1885C1H103JA01D"
+			(at 252.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H103JA01D/4421555"
+			(at 252.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "14b90062-0ae4-4f1e-9494-e622bc785eb8")
+			(uuid "6ae11b27-d026-4382-9cf6-d003a30b5c48")
+		)
+		(pin "1"
+			(uuid "9f47e19d-8389-45a1-a004-f2d031972907")
 		)
 		(instances
 			(project "speaker-board"
 				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
-					(reference "L4")
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 252.73 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb9ffb46-12c2-4f58-b55b-714a3782a043")
+		(property "Reference" "R15"
+			(at 255.27 125.7299 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3"
+			(at 255.27 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RCS12063R30FKEA"
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/vishay-dale/RCS12063R30FKEA/10059704"
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fc5bc29-660d-4729-93fa-576c64f12b33")
+		)
+		(pin "1"
+			(uuid "fb1e20a9-fd0f-4512-ad7f-a93b98137532")
+		)
+		(instances
+			(project "speaker-board"
+				(path "/4d2291af-ba5f-4125-9b43-741823f4a2c8/4cea765e-9e6a-41dd-8347-f6b99703dfc7"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8775,6 +9314,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ECW-FE2W105K"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ECW-FE2W105K/4931405"
 			(at 222.25 80.01 0)
 			(effects
 				(font
