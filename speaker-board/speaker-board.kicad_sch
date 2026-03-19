@@ -265,9 +265,9 @@
 				(justify left top)
 			)
 		)
-		(pin "high_pass_1" input
-			(at 85.09 120.65 180)
-			(uuid "42fdba13-5f64-48d6-8c61-d4bbbd548250")
+		(pin "INPUT_HIGH_P" input
+			(at 85.09 115.57 180)
+			(uuid "f9685881-adc9-4bb8-bb52-1c5cb5bf902f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -275,9 +275,9 @@
 				(justify left)
 			)
 		)
-		(pin "high_pass_2" input
-			(at 85.09 124.46 180)
-			(uuid "acd92e9e-bc93-402c-8468-e64905a39e00")
+		(pin "INPUT_LOW_P" input
+			(at 85.09 147.32 180)
+			(uuid "22d475f4-1506-4600-9e1f-c6acbb797983")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,14 +285,84 @@
 				(justify left)
 			)
 		)
-		(pin "low_pass_1" input
-			(at 85.09 116.84 180)
-			(uuid "9114860e-3888-4114-9bb9-455a1b955f92")
+		(pin "INPUT_LOW_N" input
+			(at 85.09 149.86 180)
+			(uuid "49e80a58-ba72-4cc6-9f35-6b1d5b92c8be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "AMP_~{RESET}" input
+			(at 85.09 132.08 180)
+			(uuid "980f6a73-86ae-44f9-9ebe-8a2798412e42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPEAKER_OUT_HIGH_P" output
+			(at 121.92 110.49 0)
+			(uuid "87fa543f-be8c-4e47-bb41-edb08f0aae92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPEAKER_OUT_HIGH_N" output
+			(at 121.92 113.03 0)
+			(uuid "139c922f-6386-4cc2-92c5-854a9acd7051")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AMP_~{FAULT}" input
+			(at 85.09 134.62 180)
+			(uuid "f1c966ff-6c8a-43cd-a401-577ce7c8089b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPEAKER_OUT_LOW_P" output
+			(at 121.92 151.13 0)
+			(uuid "ba950a98-e3cb-4ed7-9e6b-41063cd9ec89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INPUT_HIGH_N" input
+			(at 85.09 118.11 180)
+			(uuid "eeeaa56f-4627-41e0-96e9-0a80aa5f3927")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPEAKER_OUT_LOW_N" output
+			(at 121.92 153.67 0)
+			(uuid "1850902f-4ab5-4877-91af-d5fea30bb56c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
