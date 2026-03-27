@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "4d2291af-ba5f-4125-9b43-741823f4a2c8")
 	(paper "A4")
 	(lib_symbols)
@@ -18,11 +18,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0ca5d605-f4b3-4004-89f4-0e349b36f8c6")
 		(property "Sheetname" "Crossovers"
 			(at 203.2 30.4034 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,6 +34,8 @@
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
 			(at 203.2 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,11 +94,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "212613e9-d261-4a16-831f-d4c6555a5687")
 		(property "Sheetname" "Bluetooth"
 			(at 31.75 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,6 +110,8 @@
 		)
 		(property "Sheetfile" "bluetooth.kicad_sch"
 			(at 31.75 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,11 +210,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3e1ea607-f5fc-4c19-bf1d-3fd31df2bc8f")
 		(property "Sheetname" "Connectors"
 			(at 135.89 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,6 +226,8 @@
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
 			(at 135.89 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,11 +256,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "4cea765e-9e6a-41dd-8347-f6b99703dfc7")
 		(property "Sheetname" "Amplifier"
 			(at 85.09 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -258,6 +272,8 @@
 		)
 		(property "Sheetfile" "amplifier_amp.kicad_sch"
 			(at 85.09 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,11 +402,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6e844476-8015-4906-a9ea-5a55ac71f5cd")
 		(property "Sheetname" "MCU"
 			(at 92.71 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,6 +418,8 @@
 		)
 		(property "Sheetfile" "microcontroller_MCU.kicad_sch"
 			(at 92.71 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -428,11 +448,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "806dbcd1-a854-4562-bc01-192d9bfa60c5")
 		(property "Sheetname" "Power Conversion"
 			(at 31.75 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,6 +464,8 @@
 		)
 		(property "Sheetfile" "power_conversion.kicad_sch"
 			(at 31.75 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,11 +494,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a73a0563-b09a-4b94-97fb-9267a941e6a2")
 		(property "Sheetname" "DAC"
 			(at 146.05 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,6 +510,8 @@
 		)
 		(property "Sheetfile" "digital_to_analog_DAC.kicad_sch"
 			(at 146.05 88.2146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
